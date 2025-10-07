@@ -21,6 +21,10 @@ RUN composer install --no-dev --optimize-autoloader
 # Copy rest of the project files
 COPY . .
 
+# Fix permissions for Apache
+RUN chown -R www-data:www-data /var/www/html \
+    && chmod -R 755 /var/www/html
+
 # Expose port 80
 EXPOSE 80
 
