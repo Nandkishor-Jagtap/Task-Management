@@ -343,7 +343,7 @@ $stats = [
 <body>
     <div class="container">
         <header class="header">
-            <h1><i class="fas fa-tasks"></i> Task Management </h1>
+            <h1><i class="fas fa-tasks"></i> Task Management updated </h1>
             <p>Stay organized and productive with your daily tasks</p>
         </header>
 
